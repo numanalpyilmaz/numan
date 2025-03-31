@@ -2,6 +2,6 @@
 
 
 .resize-logo {
-  height: 100px;
-  width: 150px; /* Logonun genişliği */
+  height: 30px;
+  width: auto; /* Logonun genişliği */
 }
