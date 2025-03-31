@@ -3,5 +3,5 @@
 
 .resize-logo {
   height: 15px;
-  width: auto; /* Logonun genişliği */
+  width: 5; /* Logonun genişliği */
 }
