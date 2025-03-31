@@ -1,6 +1,6 @@
 <head>
 <link rel="stylesheet" href="css/style.css">
 .resize-logo {
-  height: 100px; /* Logonun yüksekliğini 100 piksel yapar */
+  height: 200px; /* Logonun yüksekliğini 100 piksel yapar */
   width: auto; /* Oranları korur */
 }
