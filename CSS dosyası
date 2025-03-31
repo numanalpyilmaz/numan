@@ -1,7 +1,5 @@
 <head>
-img {
-  height: 700px; /* Görselin yüksekliğini 1000 piksel yapar */
-  width: auto; /* Genişliği oranlı bir şekilde ayarlar */
+
 }
 .resize-logo {
   height: 100px;
