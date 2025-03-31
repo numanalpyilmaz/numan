@@ -1,5 +1,5 @@
 <head>
 img {
-  height: 700px; /* Görselin yüksekliğini 700 piksel yapar */
+  height: 700px; /* Görselin yüksekliğini 1000 piksel yapar */
   width: auto; /* Genişliği oranlı bir şekilde ayarlar */
 }
