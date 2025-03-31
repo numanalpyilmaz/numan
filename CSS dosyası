@@ -1,6 +1,5 @@
 <head>
-<link rel="stylesheet" href="css/style.css">
-.resize-logo {
-  height: 200px; /* Logonun yüksekliğini 100 piksel yapar */
-  width: auto; /* Oranları korur */
+img {
+  height: 700px; /* Görselin yüksekliğini 700 piksel yapar */
+  width: auto; /* Genişliği oranlı bir şekilde ayarlar */
 }
