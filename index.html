@@ -1,36 +1,82 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Sayfa | Sahibinden Benzeri</title>
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <title>Sade İlan Sitesi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fff9db;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #d4af37;
+    }
+
+    .bolumler {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .bolumler img {
+      width: 200px;
+      height: 130px;
+      object-fit: cover;
+      border: 3px solid #ffd700;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .bolumler img:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    .uye-link {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #ffd700;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .uye-link:hover {
+      background-color: #e6c200;
+    }
+  </style>
 </head>
 <body>
 
-  
-    <img src="logo.jpg" alt="Site Logosu" width="500" style="position: absolute; top: 0px; left: 400px;">
-<img src="logo.jpg" alt="Şirket Logosu" class="resize-logo">
-    <h1>Hoş Geldiniz!</h1>
-    <p>İkinci el ve sıfır ürünleri burada bulabilirsiniz.</p>
+  <img src="logo.png" alt="Site Logosu" class="logo">
 
-    <h2>Kategoriler</h2>
-    <ul>
-        <li><a href="ilanlar.html">Arabalar</a></li>
-        <li><a href="ilanlar.html">Evler</a></li>
-        <li><a href="ilanlar.html">Elektronik</a></li>
-    </ul>
+  <h1>Hoş Geldiniz!</h1>
+  <p>Dört ana bölümden birine gitmek için aşağıdaki görsellere tıklayabilirsiniz.</p>
 
-    <h2>Popüler İlanlar</h2>
-    <ul>
-        <li><a href="ilan-detay.html">2020 Model Mercedes-Benz C200</a></li>
-        <li><a href="ilan-detay.html">3+1 Satılık Daire (İstanbul)</a></li>
-        <li><a href="ilan-detay.html">iPhone 13 Pro Max 256GB</a></li>
-    </ul>
+  <div class="bolumler">
+    <a href="bolum1.html"><img src="resim1.jpg" alt="Bölüm 1"></a>
+    <a href="bolum2.html"><img src="resim2.jpg" alt="Bölüm 2"></a>
+    <a href="bolum3.html"><img src="resim3.jpg" alt="Bölüm 3"></a>
+    <a href="bolum4.html"><img src="resim4.jpg" alt="Bölüm 4"></a>
+  </div>
 
-    <footer>
-        <p><a href="hakkinda.html">Hakkında</a></p>
-    </footer>
+  <br>
+  <a href="uye_kayit.html" class="uye-link">Üye Ol</a>
 
 </body>
 </html>

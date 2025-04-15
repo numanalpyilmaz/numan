@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Kayıtlı Üyeler</title>
+  <link rel="stylesheet" href="uyeler.css">
+</head>
+<body>
+  <h2>Kayıtlı Üyeler</h2>
+  <table id="uyeTablosu">
+    <thead>
+      <tr>
+        <th>Ad Soyad</th>
+        <th>Email</th>
+        <th>Telefon</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- JavaScript ile dolacak -->
+    </tbody>
+  </table>
+
+  <a href="index.html">← Ana Sayfaya Dön</a>
+
+  <script>
+    const uyeTablosu = document.querySelector("#uyeTablosu tbody");
+    const uyeler = JSON.parse(localStorage.getItem("uyeler")) || [];
+
+    uyeler.forEach(uye => {
+      const satir = document.createElement("tr");
+      satir.innerHTML = `
+        <td>${uye.adsoyad}</td>
+        <td>${uye.email}</td>
+        <td>${uye.telefon}</td>
+      `;
+      uyeTablosu.appendChild(satir);
+    });
+  </script>
+</body>
+</html>
