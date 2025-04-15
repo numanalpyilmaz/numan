@@ -1,7 +1,0 @@
-<head>
-
-
-.resize-logo {
-  height: 15px;
-  width: 5px; /* Logonun genişliği */
-}
