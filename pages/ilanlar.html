@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlanlar</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">İlan Sitesi</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Ana Sayfa</a></li>
+                <li><a href="kategoriler.html">Kategoriler</a></li>
+                <li><a href="ilanlar.html">İlanlar</a></li>
+                <li><a href="ilan-ekle.html">İlan Ver</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="filters">
+            <label for="categoryFilter">Kategori Seç:</label>
+            <select id="categoryFilter">
+                <option value="all">Tüm İlanlar</option>
+                <option value="emlak">Emlak</option>
+                <option value="otomobil">Otomobil</option>
+                <option value="elektronik">Elektronik</option>
+                <option value="moda">Moda</option>
+                <option value="ev-esyasi">Ev Eşyası</option>
+            </select>
+        </section>
+
+        <section class="ilan-list">
+            <h1>İlanlar</h1>
+            <table id="ilanTable">
+                <thead>
+                    <tr>
+                        <th>İlan Adı</th>
+                        <th>Fiyat</th>
+                        <th>Kategori</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- JavaScript ile ilanlar eklenecek -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 İlan Sitesi. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="../myscript.js"></script>
+</body>
+</html>
